@@ -1,0 +1,124 @@
+/* Reset */
+*,
+p {
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+body {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* main */
+.main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3.5 rem;
+  margin-top: 2rem !important;
+}
+
+.img-size {
+  width: 25%;
+}
+
+/* Aside */
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.border {
+  border: 1px solid;
+  border-color: #ebebe4;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.box-2 {
+  display: flex;
+}
+
+.avatar-ppal {
+  width: 35px;
+  height: 35px;
+}
+
+hr {
+  color: #ebebe4 solid;
+}
+
+.icon-content {
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Button */
+.button {
+  border: none;
+  padding: 15px !important;
+  margin: 40px !important;
+  background-color: #a491d2;
+  color: #ffffff;
+  border-radius: none;
+  transition: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.button:hover {
+  background-color: #260d60;
+  transition: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Chat Section */
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  font-style: normal;
+  text-align: left;
+}
+
+.font_size {
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-style: normal;
+  text-align: left;
+  color: grey;
+}
+
+.font_size_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  font-style: normal;
+  text-align: left;
+}
