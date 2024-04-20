@@ -55,6 +55,7 @@ aside {
 
 .box-2 {
   display: flex;
+  justify-content: flex-start;
 }
 
 .avatar-ppal {
